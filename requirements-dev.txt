@@ -1,0 +1,8 @@
+# Dependencias adicionales para pruebas y para ejecutar el notebook.
+-r requirements.txt
+pytest>=8
+matplotlib>=3.8
+seaborn>=0.13
+nbformat
+nbconvert
+ipykernel

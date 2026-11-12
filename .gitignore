@@ -1,0 +1,27 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+.python-version
+
+# Cachés y temporales de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Streamlit (secretos locales)
+.streamlit/secrets.toml
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log

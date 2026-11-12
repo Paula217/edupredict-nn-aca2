@@ -1,0 +1,9 @@
+# Dependencias de ejecución (Streamlit Community Cloud y uso local) — ACA 2.
+# PyTorch en su versión CPU: más liviana para Streamlit Community Cloud.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.4
+streamlit>=1.40
+scikit-learn>=1.5
+pandas>=2.2
+numpy>=1.26
+plotly>=5.24
