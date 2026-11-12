@@ -38,7 +38,7 @@ Proyecto ACA N.º 2 — Aprendizaje Automático · Especialización en Inteligen
 ## 4. Cómo reproducir
 
 ### Opción A — Google Colab (recomendada si no tiene PyTorch local)
-1. Suba la carpeta del proyecto a GitHub (o a su Drive) y ábrala en Colab; si usa GitHub, pegue la URL del repo en `REPO_URL` (celda 0 del notebook).
+1. Abra `notebooks/ACA2_Student_Dropout_NN.ipynb` en Colab (*File → Open notebook → GitHub*, pegando https://github.com/Paula217/edupredict-nn-aca2). La celda 0 clona el repo automáticamente desde `REPO_URL`.
 2. *Entorno de ejecución → CPU* es suficiente. Ejecute **Run all**.
 3. Al terminar, descargue la carpeta `models/` (contiene `modelo_nn*.pt`, `metadata_nn*.json`, `metricas_nn*.json`) y cópiela al repositorio.
 
